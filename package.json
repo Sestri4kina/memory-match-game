@@ -1,0 +1,23 @@
+{
+  "name": "memory-match-game",
+  "version": "1.0.0",
+  "description": "This a memory match game.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sestri4kina/memory-match-game.git"
+  },
+  "author": "Anastasiia Bratochkina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sestri4kina/memory-match-game/issues"
+  },
+  "homepage": "https://github.com/Sestri4kina/memory-match-game#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
