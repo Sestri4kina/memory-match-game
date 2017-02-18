@@ -9,17 +9,13 @@ var time = 0;
 var ready = true;
 var numCompleted = 0;
 
-//execute functions here:
 setUp();
-
-
-//function definitions go here:
 
 function randomAnswers(){
     var answers = [1,1,2,2,3,3,4,4,5];
     answers.sort(function(item){
         return .5 - Math.random();
-    })
+    });
     return answers;
 }
 
@@ -117,7 +113,6 @@ function hide(cell){
     cell.innerHTML = "";
     cell.clicked = false;
 }
-
 
 function complete(cell){
     numCompleted++;
