@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Sestri4kina/memory-match-game/issues"
   },
-  "homepage": "https://github.com/Sestri4kina/memory-match-game#readme",
+  "homepage": " https://sestri4kina.github.io/memory-match-game/",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4"
