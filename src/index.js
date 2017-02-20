@@ -12,7 +12,7 @@ var numCompleted = 0;
 setUp();
 
 function randomAnswers(){
-    var answers = [1,1,2,2,3,3,4,4,5];
+    var answers = [31,31,27,27,83,83,49,49,56];
     answers.sort(function(item){
         return .5 - Math.random();
     });
@@ -56,7 +56,7 @@ function setUp(){
                     clickedArray = [];
 
                     if(numCompleted == 8){
-                        alert("You won in " + time + " seconds!");
+                        alert("Congratulations! You won in " + time + " seconds!");
                         clearInterval(interval);
                     }
                 }
